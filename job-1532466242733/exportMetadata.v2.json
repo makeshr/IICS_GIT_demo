@@ -1,0 +1,129 @@
+{
+  "name" : "job-1532466242733",
+  "sourceOrgId" : "9xtqLIh7aAFhsQDpiPpb4K",
+  "sourceOrgName" : "MR - SubOrg",
+  "exportedObjects" : [ {
+    "objectGuid" : "156fnvlDt2xfs72Ls4IR4r",
+    "objectName" : "workdayHR",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0103CQ0B000000000009"
+      },
+      "objectRefs" : [ "9wRmXF79Wswi8XmTBvZK6j" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "9wRmXF79Wswi8XmTBvZK6j",
+    "objectName" : "USW1PF0XQ1X9",
+    "objectType" : "AgentGroup",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0103CQ25000000000002"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "2D7Qd3Dzdfag4sJONRxsoK",
+    "objectName" : "Factory",
+    "objectType" : "Project",
+    "path" : "/Explore",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "IS_DEF_LOC",
+        "value" : "true"
+      } ],
+      "additionalInfo" : {
+        "description" : "Auto-generated Default Project",
+        "contentType" : null,
+        "documentState" : "COMPLETE"
+      },
+      "objectExistence" : "WITHOUT_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "imy5K9nsKCabZG72VO8LyW",
+    "objectName" : "m_getWorker",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/Factory",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0103CQ1700000000000F"
+      },
+      "objectRefs" : [ "156fnvlDt2xfs72Ls4IR4r", "6G4ZHAfhLe0hVheawKTkoV" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "6G4ZHAfhLe0hVheawKTkoV",
+    "objectName" : "cdp_sql_Server",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0103CQ0B00000000000A"
+      },
+      "objectRefs" : [ "9wRmXF79Wswi8XmTBvZK6j" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  } ]
+}
