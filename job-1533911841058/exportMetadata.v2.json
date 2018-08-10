@@ -1,0 +1,101 @@
+{
+  "name" : "job-1533911841058",
+  "sourceOrgId" : "9xtqLIh7aAFhsQDpiPpb4K",
+  "sourceOrgName" : "MR - SubOrg",
+  "exportedObjects" : [ {
+    "objectGuid" : "bFLZQnDyaAZdoudw2vtS0o",
+    "objectName" : "HCSC",
+    "objectType" : "Project",
+    "path" : "/Explore",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "objectRefs" : [ ],
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      },
+      "objectExistence" : "WITHOUT_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "6Bbc3Te0b7MbREDNQScO40",
+    "objectName" : "FF_HCSC",
+    "objectType" : "Connection",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0103CQ0B00000000000P"
+      },
+      "objectRefs" : [ "9wRmXF79Wswi8XmTBvZK6j" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "9wRmXF79Wswi8XmTBvZK6j",
+    "objectName" : "USW1PF0XQ1X9",
+    "objectType" : "AgentGroup",
+    "path" : "/SYS",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0103CQ25000000000002"
+      },
+      "objectRefs" : [ ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  }, {
+    "objectGuid" : "9h3UmegekHAfze77O4pza3",
+    "objectName" : "m_mask_data1",
+    "objectType" : "DTEMPLATE",
+    "path" : "/Explore/HCSC",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0103CQ1700000000000W"
+      },
+      "objectRefs" : [ "6Bbc3Te0b7MbREDNQScO40" ],
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "JSON",
+        "documentState" : "INVALID"
+      },
+      "objectExistence" : "WITH_DEPENDENCIES"
+    }
+  } ]
+}
